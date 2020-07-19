@@ -1,0 +1,136 @@
+                  = TYPE FONKSİYONU =
+"type()" fonksiyonu verinin türüne (string'mi,float'mı veya intinger'mi) bakılmasına yarar.Örnek:
+a = "ali"
+print(type(a))
+böyle yazdığımızda sonuç str olacaktır.
+
+b = 123
+print(type(b))
+böyle yazdığımızda ise cevap int olacaktır.
+
+                  = LEN FONKSİYONU =
+"len()" fonksiyonu verinin harfleri kaç tane onu ekrana cıktı olarak yazdırır.Örnek:
+a = "asdfg"
+print(len())
+böyle yazdığımızda sonuç 5 olarak ekrana yazdırılacaktır.
+
+                  = DEĞİŞKENLER =
+Pythonda değişkenleri kendimiz yazarız yani istediğimiz şeyi değişke olarak yaza biliriz sayı olmamalıdır.Örnek:
+a = 5
+Buradaki a harfi değişkendir biz istersek oraya b yada başka şeyler yazabilirdik.
+
+                  = POW FONKSİYONU =
+"pow()" fonksiyonu ilk sayınin kuvveti ile bölünmesidir.
+                  = SEP PARAMETRESİ =
+"sep=""" parametresi değişken içindeki verilerin aralarına ne konmak istenirse onu koyar.Örnek:
+a = "AHMET"
+print(a,sep=".")
+sonuç olarak 'A.H.M.E.T'olucaktır.
+
+                   = END PARAMETRESİ =
+"end=""" parametresi kelimelerin sonuna ne yapılmak istenirse onu yapar.Örnek:
+a = "AHMET TAŞÇI"
+print(a,end=".")
+sonuç olarak 'AHMET TAŞÇI.' olacaktır.
+
+                    = FİLE PARAMETRESİ = 
+"file =....." parametresi yazdıklarımızı ekrana değilde bir dosyaya yazdırmaya yarıyor.
+
+                    = OS GETCWD FONKSİYONU =
+"os getcwd()" fonksiyonu hangi dizinde olduğumuzu öğrenmiş oluruz.
+                    = KÜME FONKSİYONU =
+"set()" ile küme fonksiyonu yazmış oluruz.Örnek:
+a = set()
+print(type(a))
+sonuç olarak type set yazmış olur.
+
+KÜME ALT BAŞLIK:
+
+KÜMEYE BİR ŞEY EKLEMEK:
+".add" ile  kümemize bir şeyler ekleriz.Örnek:
+a = set("asd")
+a.add("qwert")
+print(a)
+sonuç olarak "qwert" a kümesine eklenmiş olur.
+
+KÜMEDEN BİR ŞEY SİLMEK:
+".discard" ile kümemizden birşey silmiş oluruz.Örnek:
+a = set("asd","qwert")
+a.discard("qwert")
+print(a)
+sonuç olarak "qwert" a kümesinden silinmiş olur.
+
+KÜMELERİN KESİŞİMLERİNİ BULMAK:
+".intersection" ile kümelerin kesişimlerini buluruz.Örnek:
+a = set([1,2,3,4,5])
+b = set([2,4,6])
+
+a.intersection(b)
+print(a)
+sonuç olarak a kümesinin b kümesiyle kesişimini bulmuş olduk.
+
+                    = LİSTELERİN METOTDLARI =
+".sort" bir sıraya koyma görevi vardır.Örnek:
+a =["asd","qwert","ruby","python","java"]
+a.sort()
+print(a)
+sonuç olarak alfabetik bir sıraya göre ekrana yazdırılıcaktır.
+
+".append" eklemeye yarar.Örnek:
+a =["ruby","python","java"]
+a.append("c++")
+print(a)
+sonuç olarak "c++" a değişkenine eklenmiş olucaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
